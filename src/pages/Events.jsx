@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import EventCard from '../components/EventCard';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.jsx';
+import EventCard from '../components/EventCard.jsx';
 import { useFetchAllEventsQuery } from '../redux/features/events/events.api';
 import { OrbitProgress } from 'react-loading-indicators';
 

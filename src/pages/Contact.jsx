@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Navbar from "../components/Navbar.jsx";
+import Footer from "../components/Footerjsx";
 import Swal from "sweetalert2";
 import { useSendConcernMutation } from "../redux/features/concerns/concerns.api.js"; // Import the mutation hook
 

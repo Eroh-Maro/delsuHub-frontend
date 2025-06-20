@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Navbar from "../components/Navbar.jsx";
+import Footer from "../components/Footer.jsx";
 import hero from "../assets/International-Event.jpg";
 import microsoft from "../assets/micro.png";
 import embold from "../assets/embold.png";
 import mtn from "../assets/mtn.png";
 import shell from "../assets/shell.png";
-import Benefits from "../components/benefits";
+import Benefits from "../components/Benefits.jsx";
 import delsu from "../assets/delsuLogo.png";
 import { FaBook, FaTools, FaLightbulb } from "react-icons/fa";
 import { FaPeopleGroup } from "react-icons/fa6";
