@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Tech Conference 2025",
+    "date": "March 20, 2025",
+    "description": "Join us for a day of insightful talks and networking with industry leaders.",
+    "coverImage": "techCon.jpg",
+    "link": "https://www.youtube.com/"
+  },
+  {
+    "title": "Hackathon 2025",
+    "date": "April 15, 2025",
+    "description": "Showcase your coding skills and compete for exciting prizes.",
+    "coverImage": "hackathon.jpg",
+    "link": "https://www.youtube.com/"
+  },
+  {
+    "title": "Workshop on AI",
+    "date": "May 10, 2025",
+    "description": "Hands-on workshop on Artificial Intelligence and Machine Learning.",
+    "coverImage": "ai.jpg",
+    "link": "https://www.youtube.com/"
+  },
+  {
+    "title": "Cybersecurity Seminar",
+    "date": "June 5, 2025",
+    "description": "Learn about the latest trends and techniques in cybersecurity.",
+    "coverImage": "cyberSec.jpg",
+    "link": "https://www.youtube.com/"
+  },
+  {
+    "title": "Developer Meetup",
+    "date": "July 20, 2025",
+    "description": "Network with fellow developers and share your experiences.",
+    "coverImage": "meetup.jpg",
+    "link": "https://example.com/webinar"
+  },
+  {
+    "title": "Web Development Webinar",
+    "date": "August 15, 2025",
+    "description": "Join our webinar on modern web development practices.",
+    "coverImage": "webinarImg.jpg",
+    "link": "https://example.com/webinar"
+  }
+]
