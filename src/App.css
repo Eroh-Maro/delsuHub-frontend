@@ -19,7 +19,7 @@ html {
 .navbar {
   margin: 0;
   padding: 0;
-  width: 99vw;
+  width: 100vw;
   position: absolute;
   top: 0;
   left: 0;
@@ -476,10 +476,7 @@ button[type="submit"]:hover {
   }
 
   .about {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5vh;
-    padding: 0 10px;
+    display: block;
   }
 
   .aboutText {
