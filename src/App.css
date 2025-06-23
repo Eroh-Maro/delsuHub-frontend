@@ -465,7 +465,11 @@ button[type="submit"]:hover {
     position: static;
     margin-top: 10px;
   }
-
+  .writeUp {
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 0 10px;
+  }
   .delsuContainer {
     padding: 0 10px;
   }
@@ -497,11 +501,6 @@ button[type="submit"]:hover {
   .benefitSection {
     margin-top: 5vh;
     margin-bottom: 10vh;
-    padding: 0 10px;
-  }
-  .writeUp {
-    font-size: 0.8rem;
-    text-align: center;
     padding: 0 10px;
   }
 
