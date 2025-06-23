@@ -516,7 +516,7 @@ button[type="submit"]:hover {
   .benefitsCard {
     width: 80%;
     min-height: auto;
-      margin: 0 auto; /
+    margin: 0 auto; 
   }
 
   .callToAction {
