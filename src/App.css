@@ -438,3 +438,157 @@ button[type="submit"]:hover {
 .fieldset {
   border: none;
 }
+/* ...existing code... */
+
+@media (max-width: 600px) {
+  .home,
+  .heroSection {
+    width: 100vw;
+    height: auto;
+    min-height: 60vh;
+  }
+
+  .heroText {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  .heading2 {
+    font-size: 1.1rem;
+    position: static;
+    margin-top: 10px;
+  }
+
+  .delsuContainer {
+    padding: 0 10px;
+  }
+
+  .delsuLogo {
+    height: 100px;
+    width: auto;
+  }
+
+  .about {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+    padding: 0 10px;
+  }
+
+  .aboutText {
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .conference {
+    width: 90vw;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .benefitSection {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    padding: 0 10px;
+  }
+
+  .benefitsContainer {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+  }
+
+  .benefitsCard,
+  .benefitsCard {
+    width: 100%;
+    min-height: auto;
+  }
+
+  .callToAction {
+    height: auto;
+    padding: 20px 10px;
+  }
+
+  .callToAction > p {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .buttonContainer {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 3vh;
+    align-items: stretch;
+  }
+
+  .logos {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 5vh;
+  }
+
+  .partner {
+    width: 60vw;
+    max-width: 200px;
+  }
+
+  .collaborations {
+    margin-left: 0;
+    margin-top: 5vh;
+    font-size: 1rem;
+    margin-bottom: 5vh;
+    padding: 0 10px;
+  }
+
+  .footerContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footerSection {
+    min-width: unset;
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .eventCard {
+    max-width: 95vw;
+    margin: 20px auto 0 auto;
+    margin-top: 5vh;
+  }
+
+  .eventImage {
+    height: 150px;
+  }
+
+  .eventsContainer {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    min-height: 30vh;
+  }
+
+  .contactContainer {
+    padding: 20px 5px;
+    max-width: 98vw;
+  }
+
+  .contactContainer h1 {
+    font-size: 1.5em;
+  }
+
+  .formGroup input,
+  .formGroup textarea {
+    width: 100%;
+    font-size: 0.95em;
+  }
+}
