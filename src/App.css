@@ -537,7 +537,7 @@ button[type="submit"]:hover {
   }
 
   .logos {
-    flex-direction: column;
+    flex-direction: row;
     display: flex;
     gap: 10px;
     margin-top: 5vh;
